@@ -14,16 +14,35 @@
                     <span class="flex items-center text-md">Jt</span>
                 </div>
                 <ul>
-                    <li class="flex items-center gap-2"><div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Gratis Domain.my.id</li>
-                    <li class="flex items-center gap-2"><div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Gratis Hosting</li>
-                    <li class="flex items-center gap-2"><div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Gratis perawatan 1 bulan</li>
-                    <li class="flex items-center gap-2"><div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Landing Page</li>
-                    <li class="flex items-center gap-2"><div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>1x Revisi</li>
-                    <li class="flex items-center gap-2"><div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Integrasi Google Search Console</li>
-                    <li class="flex items-center gap-2"><div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Integrasi Google Analytics</li>
-                    <li class="flex items-center gap-2"><div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Perpanjangan 25%</li>
+                    <li class="flex items-center gap-2">
+                        <div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Gratis Domain.my.id
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Gratis Hosting
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Gratis perawatan 1 bulan
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Landing Page
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>1x Revisi
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Integrasi Google Search Console
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Integrasi Google Analytics
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Perpanjangan 25%
+                    </li>
                 </ul>
-                <div class="flex items-center justify-center py-2"><a href="wa.me/+6285762647933" class="px-5 py-3 bg-[#13495a] text-[#fffff0] rounded-3xl">Order</a></div>
+                <div class="flex items-center justify-center py-2">
+                    <a href="https://wa.me/+6285762647933" class="px-5 py-3 bg-[#13495a] text-[#fffff0] rounded-3xl">
+                        Order</a>
+                </div>
             </div>
             <div class="w-72 bg-[#fffff0] border border-[#00000f30] p-4 rounded-lg shadow-xl">
                 <div class="flex items-center justify-center py-6">
@@ -36,17 +55,38 @@
                     <span class="flex items-center text-md">Jt</span>
                 </div>
                 <ul>
-                    <li class="flex items-center gap-2"><div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Gratis Domain.my.id</li>
-                    <li class="flex items-center gap-2"><div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Gratis Hosting</li>
-                    <li class="flex items-center gap-2"><div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Portfolio Diri</li>
-                    <li class="flex items-center gap-2"><div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Gratis perawatan hingga 6 bulan</li>
-                    <li class="flex items-center gap-2"><div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>1 Halaman</li>
-                    <li class="flex items-center gap-2"><div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>3x Revisi</li>
-                    <li class="flex items-center gap-2"><div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Integrasi Google Search Console</li>
-                    <li class="flex items-center gap-2"><div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Integrasi Google Analytics</li>
-                    <li class="flex items-center gap-2"><div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Perpanjangan 25%</li>
+                    <li class="flex items-center gap-2">
+                        <div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Gratis Domain.my.id
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Gratis Hosting
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Portfolio Diri
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Gratis perawatan hingga 6 bulan
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>1 Halaman
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>3x Revisi
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Integrasi Google Search Console
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Integrasi Google Analytics
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Perpanjangan 25%
+                    </li>
                 </ul>
-                <div class="flex items-center justify-center py-2"><a href="wa.me/+6285762647933" class="px-5 py-3 bg-[#13495a] text-[#fffff0] rounded-3xl">Order</a></div>
+                <div class="flex items-center justify-center py-2">
+                    <a href="https://wa.me/+6285762647933" class="px-5 py-3 bg-[#13495a] text-[#fffff0] rounded-3xl">
+                        Order</a>
+                </div>
             </div>
             <div class="w-72 bg-[#fffff0] border border-[#00000f30] p-4 rounded-lg shadow-xl">
                 <div class="flex items-center justify-center py-6">
@@ -59,17 +99,38 @@
                     <span class="flex items-center text-md">Jt</span>
                 </div>
                 <ul>
-                    <li class="flex items-center gap-2"><div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Gratis Domain (bebas)</li>
-                    <li class="flex items-center gap-2"><div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Gratis Hosting</li>
-                    <li class="flex items-center gap-2"><div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Website Kustom</li>
-                    <li class="flex items-center gap-2"><div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Gratis perawatan hingga 1 Tahun</li>
-                    <li class="flex items-center gap-2"><div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>5 Halaman</li>
-                    <li class="flex items-center gap-2"><div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>5x Revisi</li>
-                    <li class="flex items-center gap-2"><div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Integrasi Google Search Console</li>
-                    <li class="flex items-center gap-2"><div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Integrasi Google Analytics</li>
-                    <li class="flex items-center gap-2"><div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Perpanjangan 20%</li>
+                    <li class="flex items-center gap-2">
+                        <div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Gratis Domain (bebas)
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Gratis Hosting
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Website Kustom
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Gratis perawatan hingga 1 Tahun
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>5 Halaman
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>5x Revisi
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Integrasi Google Search Console
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Integrasi Google Analytics
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <div class="size-2 shadow-lg rounded-full bg-[#13495a]"></div>Perpanjangan 20%
+                    </li>
                 </ul>
-                <div class="flex items-center justify-center py-2"><a href="wa.me/+6285762647933" class="px-5 py-3 bg-[#13495a] text-[#fffff0] rounded-3xl">Order</a></div>
+                <div class="flex items-center justify-center py-2">
+                    <a href="https://wa.me/+6285762647933" class="px-5 py-3 bg-[#13495a] text-[#fffff0] rounded-3xl">
+                        Order</a>
+                </div>
             </div>
         </div>
     </section>

@@ -3,8 +3,8 @@
         class="relative bg-[#13495A] text-[#fffff0] px-[5%] md:px-[10%] xl:px-[20%] py-16 pb-10 flex gap-8 justify-between flex-wrap">
         <div class="relative flex flex-col">
             <div class="flex items-center justify-start">
-                <a href="." class=""><img src="/assets/logo/Typography Invis White.webp"
-                        class="h-16 rounded-xl scale-125" alt=""></a>
+                <RouterLink to="." class=""><img src="/assets/logo/Typography Invis White.webp"
+                        class="h-16 rounded-xl scale-125" alt=""></RouterLink>
             </div>
             <p class="flex items-center gap-2"><span class="text-2xl">&copy;</span> All rights reserved.</p>
             <div class="flex gap-2">
@@ -21,16 +21,16 @@
                 <div class="flex flex-col">
                     <p>Jl. Makmur, Dusun 6 Kenanga</p>
                     <a href="">tarutaru.lab@gmail.com</a>
-                    <a href="wa.me/6285762647933">+62 857-6264-7933</a>
+                    <a href="https://wa.me/6285762647933">+62 857-6264-7933</a>
                 </div>
             </div>
             <div>
                 <h1 class="text-2xl font-bold">Learn More</h1>
                 <div class="flex flex-col">
-                    <a href="pages/blog-judul/">Blog</a>
-                    <a href="pages/what-we-can/">Services</a>
-                    <a href="pages/project">Portfolio</a>
-                    <a href="pages/team">Team</a>
+                    <RouterLink to="/blog/">Blog</RouterLink>
+                    <RouterLink to="/what-we-can/">Services</RouterLink>
+                    <RouterLink to="/project/">Portfolio</RouterLink>
+                    <RouterLink to="/team/">Team</RouterLink>
                 </div>
             </div>
         </div>

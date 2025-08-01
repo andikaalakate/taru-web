@@ -11,7 +11,7 @@
         :class="[isOpen ? 'top-[68px]' : 'top-full']">
         <ul class="flex flex-col gap-4 w-full">
             <li v-for="(item, i) in menuItems" :key="i">
-                <a :href="item.href" @click="closeMenu"
+                <RouterLink :to="item.href" @click="closeMenu"
                     class="w-full flex h-5 px-4 py-6 rounded-3xl items-center justify-center font-semibold border-8"
                     :class="[
                         item.dark
@@ -19,7 +19,7 @@
                             : 'bg-[#fffff0] border-[#13495a] text-[#13495a]'
                     ]">
                     {{ item.label }}
-                </a>
+                </RouterLink>
             </li>
         </ul>
     </div>
