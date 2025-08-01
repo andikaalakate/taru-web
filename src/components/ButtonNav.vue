@@ -31,11 +31,11 @@ import { ref, watch } from 'vue'
 const isOpen = ref(false)
 
 const menuItems = [
-    { label: 'Blog', href: 'pages/blog-judul/' },
-    { label: 'Services', href: 'pages/what-we-can/' },
-    { label: 'Portfolio', href: 'pages/project/' },
-    { label: 'Team', href: 'pages/team/' },
-    { label: 'Order Us', href: 'order-us/', dark: true }
+    { label: 'Blog', href: '/blog/' },
+    { label: 'Services', href: '/what-we-can/' },
+    { label: 'Portfolio', href: '/project/' },
+    { label: 'Team', href: '/team/' },
+    { label: 'Order Us', href: 'order/', dark: true }
 ]
 
 function toggleMenu() {

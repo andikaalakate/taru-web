@@ -2,7 +2,7 @@
     <section
         class="text-[#FFFFF0] bg-[#13495A] h-screen flex md:justify-between px-[5%] md:px-[10%] xl:px-[20%] py-4 items-center flex-wrap-reverse">
         <div class="md:max-w-1/2 z-10">
-            <h1 class="text-6xl font-extrabold text-shadow-[#000]">Your Complaint, Our Expertise</h1>
+            <h1 class="text-[58px] font-extrabold text-shadow-[#000] leading-14">Your Complaint, Our Expertise</h1>
             <p>Entertainment, Tech, Graphic Design, Devices Troubleshooting, and Website Developing</p>
         </div>
         <div class="md:max-w-1/2 absolute md:relative left-0 z-0">
