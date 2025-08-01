@@ -35,7 +35,7 @@ const menuItems = [
     { label: 'Services', href: '/what-we-can/' },
     { label: 'Portfolio', href: '/project/' },
     { label: 'Team', href: '/team/' },
-    { label: 'Order Us', href: 'order/', dark: true }
+    { label: 'Order Us', href: '/order/', dark: true }
 ]
 
 function toggleMenu() {
