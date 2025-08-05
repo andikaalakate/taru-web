@@ -1,31 +1,23 @@
 <script setup>
-import { ref, onMounted, onBeforeUnmount } from 'vue'
+import { ref, onMounted } from 'vue'
+import Navbar from '@components/Navbar.vue'
+import ButtonNav from '@components/ButtonNav.vue'
+import BlogSection from '@components/sections/BlogSection.vue'
+import Footer from '@components/Footer.vue'
 
-import Footer from '@components/Footer.vue';
-import Navbar from '@components/Navbar.vue';
-import ButtonNav from '@components/ButtonNav.vue';
-import BlogContent from '@components/sections/content/BlogContent.vue';
+const blogposts = ref([])
 
-// Fungsi untuk scroll ke atas
-const scrollToTop = () => {
-    scrollTo({ top: 0, behavior: 'smooth' })
+async function fetchPosts() {
+  const res = await fetch('/assets/blogposts.json')
+  blogposts.value = await res.json()
 }
 
-onMounted(() => {
-    scrollToTop()
-})
+onMounted(fetchPosts)
 </script>
 
 <template>
-    <!-- Navigasi -->
-    <Navbar />
-
-    <!-- Button Bar -->
-    <ButtonNav />
-
-    <!-- Blog Content -->
-    <BlogContent />
-
-    <!-- Footer Section -->
-    <Footer />
+  <Navbar />
+  <ButtonNav />
+  <BlogSection :blogposts="blogposts" />
+  <Footer />
 </template>

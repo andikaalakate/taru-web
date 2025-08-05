@@ -1,31 +1,16 @@
-<script setup>
-import { ref, onMounted, onBeforeUnmount } from 'vue'
-
-import Footer from '@components/Footer.vue';
-import Navbar from '@components/Navbar.vue';
-import ButtonNav from '@components/ButtonNav.vue';
-import OrderContent from '@components/sections/content/OrderContent.vue';
-
-// Fungsi untuk scroll ke atas
-const scrollToTop = () => {
-    scrollTo({ top: 0, behavior: 'smooth' })
-}
-
-onMounted(() => {
-    scrollToTop()
-})
-</script>
-
 <template>
-    <!-- Navigasi -->
-    <Navbar />
-
-    <!-- Button Bar -->
-    <ButtonNav />
-
-    <!-- Order Content -->
-    <OrderContent/>
-
-    <!-- Footer Section -->
-    <Footer />
+  <Navbar/>
+  <ButtonNav/>
+  <div class="pt-20"><OrderContent/></div>
+  <Footer/>
 </template>
+
+<script setup>
+import Navbar from '@components/Navbar.vue'
+import ButtonNav from '@components/ButtonNav.vue'
+import OrderContent from '@components/sections/content/OrderContent.vue'
+import Footer from '@components/Footer.vue'
+import { onMounted } from 'vue'
+
+onMounted(() => scrollTo({ top: 0, behavior: 'smooth' }))
+</script>

@@ -1,0 +1,34 @@
+[
+  {
+    "title": "One Piece memasuki Arc Egghead?",
+    "image": "/assets/blog/onepiece.webp",
+    "slug": "one-piece-arc-egghead",
+    "category": "Anime",
+    "description": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente libero tenetur veritatis vero quos eius ducimus molestiae molestias laboriosam ut sunt repellat, illum ipsam, ratione officiis in deleniti illo aliquam.", 
+      "Unde ad sequi, ut ratione ipsum minima dolore iure in deserunt beatae id atque dolor dolorum tenetur excepturi facilis labore voluptatum iste consectetur sit fugit animi! Id error eveniet reiciendis?"]
+  },
+  {
+    "title": "Kimetsu no Yaiba: Infinity Castle rilis 15 Agustus 2025",
+    "image": "/assets/blog/kny.webp",
+    "slug": "kimetsu-no-yaiba-infinity-castle",
+    "category": "Anime",
+    "description": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente libero tenetur veritatis vero quos eius ducimus molestiae molestias laboriosam ut sunt repellat, illum ipsam, ratione officiis in deleniti illo aliquam.",
+      "Unde ad sequi, ut ratione ipsum minima dolore iure in deserunt beatae id atque dolor dolorum tenetur excepturi facilis labore voluptatum iste consectetur sit fugit animi! Id error eveniet reiciendis?"]
+  },
+  {
+    "title": "Naruto Shippuden",
+    "image": "/assets/unavailable.webp",
+    "slug": "naruto-shippuden",
+    "category": "Anime",
+    "description": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente libero tenetur veritatis vero quos eius ducimus molestiae molestias laboriosam ut sunt repellat, illum ipsam, ratione officiis in deleniti illo aliquam.",
+      "Unde ad sequi, ut ratione ipsum minima dolore iure in deserunt beatae id atque dolor dolorum tenetur excepturi facilis labore voluptatum iste consectetur sit fugit animi! Id error eveniet reiciendis?"]
+  },
+  {
+    "title": "Attack on Titan Final Season",
+    "image": "/assets/unavailable.webp",
+    "slug": "attack-on-titan-final",
+    "category": "Anime",
+    "description": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente libero tenetur veritatis vero quos eius ducimus molestiae molestias laboriosam ut sunt repellat, illum ipsam, ratione officiis in deleniti illo aliquam.",
+      "Unde ad sequi, ut ratione ipsum minima dolore iure in deserunt beatae id atque dolor dolorum tenetur excepturi facilis labore voluptatum iste consectetur sit fugit animi! Id error eveniet reiciendis?"]
+  }
+]

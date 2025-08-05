@@ -1,31 +1,24 @@
 <script setup>
-import { ref, onMounted, onBeforeUnmount } from 'vue'
+import { ref, onMounted } from 'vue'
+import Navbar from '@components/Navbar.vue'
+import ButtonNav from '@components/ButtonNav.vue'
+import ProjectSection from '@components/sections/ProjectSection.vue'
+import Footer from '@components/Footer.vue'
 
-import Footer from '@components/Footer.vue';
-import Navbar from '@components/Navbar.vue';
-import ButtonNav from '@components/ButtonNav.vue';
-import ProjectsContent from '@components/sections/content/ProjectsContent.vue';
+const projects = ref([])
 
-// Fungsi untuk scroll ke atas
-const scrollToTop = () => {
-    scrollTo({ top: 0, behavior: 'smooth' })
+async function fetchPosts() {
+  const res = await fetch('/assets/projects.json')
+  projects.value = await res.json()
 }
 
-onMounted(() => {
-    scrollToTop()
-})
+onMounted(fetchPosts)
 </script>
 
 <template>
-    <!-- Navigasi -->
-    <Navbar />
-
-    <!-- Button Bar -->
-    <ButtonNav />
-
-    <!-- Project Content -->
-    <ProjectsContent />
-
-    <!-- Footer Section -->
-    <Footer />
+  <Navbar />
+  <ButtonNav />
+  <!-- Full list -->
+  <ProjectSection :projects="projects" />
+  <Footer />
 </template>

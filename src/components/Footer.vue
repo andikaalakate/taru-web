@@ -28,7 +28,7 @@
                 <h1 class="text-2xl font-bold">Learn More</h1>
                 <div class="flex flex-col">
                     <RouterLink to="/blog/">Blog</RouterLink>
-                    <RouterLink to="/what-we-can/">Services</RouterLink>
+                    <RouterLink to="/service/">Services</RouterLink>
                     <RouterLink to="/project/">Portfolio</RouterLink>
                     <RouterLink to="/team/">Team</RouterLink>
                 </div>

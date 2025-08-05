@@ -1,24 +1,37 @@
 <template>
-    <section id="blog" class="bg-[#fffff0] text-[#00000f] px-[5%] md:px-[10%] xl:px-[20%] py-4 pb-10">
-        <h1 class="text-4xl mt-20 mb-10 text-center font-bold">What's New ?</h1>
-        <div class="flex flex-wrap gap-4 justify-center">
-            <RouterLink to="/blog/" class="min-w-64 max-w-72" title="One Piece memasuki Arc Egghead ?">
-                <img src="/assets/blog/onepiece.webp" class="rounded mb-2 aspect-video" alt="">
-                <div>
-                    <h1 class="leading-5">One Piece memasuki Arc Egghead ?</h1>
-                    <p class="underline text-blue-500">Selengkapnya...</p>
-                </div>
-                <div class="h-[0.5px] bg-[#00000f40] my-2"></div>
-            </RouterLink>
-            <RouterLink to="/blog/" class="min-w-64 max-w-72"
-                title="Kimetsu no Yaiba: Infinity Castle rilis 15 Agustus 2025">
-                <img src="/assets/blog/kny.webp" class="rounded mb-2 aspect-video" alt="">
-                <div>
-                    <h1 class="leading-5">Kimetsu no Yaiba: Infinity Castle rilis 15 Agustus 2025</h1>
-                    <p class="underline text-blue-500">Selengkapnya...</p>
-                </div>
-                <div class="h-[0.5px] bg-[#00000f40] my-2"></div>
-            </RouterLink>
+  <section id="blog" class="bg-[#fffff0] text-[#1c1f29] px-5 md:px-10 xl:px-20 py-10 pt-30">
+    <h1 class="text-4xl mb-12 text-center font-bold text-[#2f3a4b]">What's New?</h1>
+    <div class="max-w-screen-lg mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <RouterLink
+        v-for="post in blogposts"
+        :key="post.slug"
+        :to="`/blog/${post.slug}`"
+        class="rounded-2xl bg-white shadow-md hover:shadow-xl hover:scale-105 transition-transform duration-200 overflow-hidden border border-[#f3f3f7]"
+        :title="post.title"
+      >
+        <img :src="post.image" :alt="post.title" class="w-full aspect-video object-cover" />
+        <div class="px-5 py-4 flex flex-col gap-2">
+          <span class="text-xs text-[#237c92] font-bold">{{ post.category }}</span>
+          <h2 class="text-lg font-bold leading-snug">{{ post.title }}</h2>
+          <p
+            class="mt-2 self-start text-blue-500 underline underline-offset-2 hover:text-[#13495A]
+                   focus:outline-none focus:ring-2 focus:ring-blue-300 font-semibold transition"
+          >
+            Selengkapnya&hellip;
+          </p>
         </div>
-    </section>
+      </RouterLink>
+    </div>
+  </section>
 </template>
+
+<script setup>
+import { defineProps } from 'vue'
+
+const props = defineProps({
+  blogposts: {
+    type: Array,
+    required: true
+  }
+})
+</script>
