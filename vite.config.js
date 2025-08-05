@@ -6,11 +6,6 @@ import autoprefixer from "autoprefixer";
 
 // https://vite.dev/config/
 export default defineConfig({
-  server: {
-    allowedHosts: [
-      'copies-cruises-trees-its.trycloudflare.com'
-    ],
-  },
   css: {
     postcss: {
       plugins: [autoprefixer()],
