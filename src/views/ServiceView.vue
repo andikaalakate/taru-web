@@ -18,7 +18,6 @@ onMounted(fetchPosts)
 <template>
   <Navbar />
   <ButtonNav />
-  <!-- Full list -->
-  <ServiceSection :services="services" />
+  <ServiceSection :services="services" class="bg-[#fffff0] pt-32" />
   <Footer />
 </template>

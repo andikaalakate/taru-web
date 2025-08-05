@@ -1,5 +1,5 @@
 <template>
-  <section id="blog" class="bg-[#fffff0] text-[#1c1f29] px-5 md:px-10 xl:px-20 py-10 pt-30">
+  <section id="blog" class="bg-[#fffff0] text-[#1c1f29] px-5 md:px-10 xl:px-20 py-10">
     <h1 class="text-4xl mb-12 text-center font-bold text-[#2f3a4b]">What's New?</h1>
     <div class="max-w-screen-lg mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
       <RouterLink

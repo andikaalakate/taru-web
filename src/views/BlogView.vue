@@ -18,6 +18,6 @@ onMounted(fetchPosts)
 <template>
   <Navbar />
   <ButtonNav />
-  <BlogSection :blogposts="blogposts" />
+  <BlogSection :blogposts="blogposts" class="bg-[#fffff0] pt-32" />
   <Footer />
 </template>
