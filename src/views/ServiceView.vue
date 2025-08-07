@@ -1,23 +1,25 @@
 <script setup>
-import { ref, onMounted } from 'vue'
-import Navbar from '@components/Navbar.vue'
-import ButtonNav from '@components/ButtonNav.vue'
-import ServiceSection from '@components/sections/ServiceSection.vue'
-import Footer from '@components/Footer.vue'
+import { ref, onMounted } from "vue";
+import Navbar from "@components/Navbar.vue";
+import ButtonNav from "@components/ButtonNav.vue";
+import ServiceSection from "@components/sections/ServiceSection.vue";
+import Footer from "@components/Footer.vue";
 
-const services = ref([])
+const services = ref([]);
 
 async function fetchPosts() {
-  const res = await fetch('/assets/services.json')
-  services.value = await res.json()
+  const res = await fetch("/assets/services.json");
+  services.value = await res.json();
 }
 
-onMounted(fetchPosts)
+onMounted(fetchPosts);
 </script>
 
 <template>
   <Navbar />
   <ButtonNav />
-  <ServiceSection :services="services" class="bg-[#fffff0] pt-32" />
-  <Footer />
+  <div class="min-h-screen flex flex-col bg-[#fffff0]">
+    <ServiceSection :services="services" class="pt-32 flex-grow" />
+    <Footer />
+  </div>
 </template>

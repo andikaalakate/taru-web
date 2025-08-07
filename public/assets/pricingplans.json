@@ -1,0 +1,44 @@
+{
+  "plans": [
+    {
+      "id": "starter-spark",
+      "title": "Starter Spark",
+      "price": "1",
+      "currency": "Rp.",
+      "unit": "Jt",
+      "features": [
+        "Gratis Domain.my.id",
+        "Gratis Hosting",
+        "Gratis perawatan 1 bulan",
+        "Landing Page",
+        "1x Revisi",
+        "Integrasi Google Search Console",
+        "Integrasi Google Analytics",
+        "Perpanjangan 25%"
+      ]
+    },
+    {
+      "id": "momentum-engine",
+      "title": "Momentum Engine",
+      "price": "1,5",
+      "currency": "Rp.",
+      "unit": "Jt",
+      "features": [
+        "Gratis Domain.my.id",
+        "Gratis Hosting",
+        "Portfolio Diri",
+        "Gratis perawatan hingga 6 bulan",
+        "1 Halaman",
+        "3x Revisi",
+        "Integrasi Google Search Console",
+        "Integrasi Google Analytics",
+        "Perpanjangan 25%"
+      ]
+    }
+  ],
+  "config": {
+    "whatsappNumber": "+6285762647933",
+    "sectionTitle": "Order Us",
+    "sectionSubtitle": "Wanna see the attractive price list that we offer to our customers?"
+  }
+}

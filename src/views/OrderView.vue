@@ -1,16 +1,18 @@
 <template>
-  <Navbar/>
-  <ButtonNav/>
-  <div class="pt-20"><OrderContent/></div>
-  <Footer/>
+  <Navbar />
+  <ButtonNav />
+  <main class="bg-[#fffff0] pt-22">
+    <OrderSection />
+  </main>
+  <Footer />
 </template>
 
 <script setup>
-import Navbar from '@components/Navbar.vue'
-import ButtonNav from '@components/ButtonNav.vue'
-import OrderContent from '@components/sections/content/OrderContent.vue'
-import Footer from '@components/Footer.vue'
 import { onMounted } from 'vue'
+import Navbar from '@/components/Navbar.vue'
+import ButtonNav from '@/components/ButtonNav.vue'
+import OrderSection from '@/components/sections/OrderSection.vue'
+import Footer from '@/components/Footer.vue'
 
-onMounted(() => scrollTo({ top: 0, behavior: 'smooth' }))
+onMounted(() => window.scrollTo({ top: 0, behavior: 'smooth' }))
 </script>

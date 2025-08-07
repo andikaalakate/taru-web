@@ -3,21 +3,18 @@
     "title": "Entertainment",
     "image": "/assets/entertainment.webp",
     "slug": "entertainment",
-    "description": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente libero tenetur veritatis vero quos eius ducimus molestiae molestias laboriosam ut sunt repellat, illum ipsam, ratione officiis in deleniti illo aliquam.",
-      "Unde ad sequi, ut ratione ipsum minima dolore iure in deserunt beatae id atque dolor dolorum tenetur excepturi facilis labore voluptatum iste consectetur sit fugit animi! Id error eveniet reiciendis?"]
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
   },
   {
     "title": "Technology",
     "image": "/assets/tech.webp",
     "slug": "technology",
-    "description": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente libero tenetur veritatis vero quos eius ducimus molestiae molestias laboriosam ut sunt repellat, illum ipsam, ratione officiis in deleniti illo aliquam.",
-      "Unde ad sequi, ut ratione ipsum minima dolore iure in deserunt beatae id atque dolor dolorum tenetur excepturi facilis labore voluptatum iste consectetur sit fugit animi! Id error eveniet reiciendis?"]
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
   },
   {
     "title": "Graphic Design",
     "image": "/assets/gdesign.webp",
     "slug": "graphic-design",
-    "description": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente libero tenetur veritatis vero quos eius ducimus molestiae molestias laboriosam ut sunt repellat, illum ipsam, ratione officiis in deleniti illo aliquam.",
-      "Unde ad sequi, ut ratione ipsum minima dolore iure in deserunt beatae id atque dolor dolorum tenetur excepturi facilis labore voluptatum iste consectetur sit fugit animi! Id error eveniet reiciendis?"]
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
   }
 ]

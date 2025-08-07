@@ -16,16 +16,16 @@
 
   <!-- Slide down menu -->
   <Transition
-    enter-active-class="transition-all duration-300 ease-out"
-    enter-from-class="opacity-0 -translate-y-4 scale-95"
-    enter-to-class="opacity-100 translate-y-0 scale-100"
-    leave-active-class="transition-all duration-200 ease-in"
-    leave-from-class="opacity-100 translate-y-0 scale-100"
-    leave-to-class="opacity-0 -translate-y-4 scale-95"
+    enter-active-class="transition-all duration-500 ease-out"
+    enter-from-class="opacity-0 -translate-y-full"
+    enter-to-class="opacity-100 translate-y-0"
+    leave-active-class="transition-all duration-300 ease-in"
+    leave-from-class="opacity-100 translate-y-0"
+    leave-to-class="opacity-0 -translate-y-full"
   >
     <nav
       v-show="isOpen"
-      class="fixed top-[68px] left-1/2 z-40 w-full max-w-md -translate-x-1/2 rounded-xl bg-[#2b2b35cc] backdrop-blur-md shadow-xl p-6 md:hidden"
+      class="fixed top-[68px] inset-x-6 z-40 max-w-md mx-auto rounded-xl bg-[#2b2b35cc] backdrop-blur-md shadow-xl p-6 md:hidden"
       role="menu"
     >
       <ul class="flex flex-col gap-6">
@@ -34,12 +34,15 @@
             :to="item.href"
             @click="closeMenu"
             class="block w-full rounded-lg px-6 py-3 font-semibold text-center transition-all duration-200 transform hover:scale-105"
-            :class="item.dark
-              ? 'bg-[#1f1f27] text-[#fffff0] hover:bg-[#39394f]'
-              : 'bg-[#fffff0] text-[#13495A] hover:bg-[#dcedf2]'"
+            :class="
+              item.dark
+                ? 'bg-[#1f1f27] text-[#fffff0] hover:bg-[#39394f]'
+                : 'bg-[#fffff0] text-[#13495A] hover:bg-[#dcedf2]'
+            "
             role="menuitem"
             :style="{ 'animation-delay': `${i * 50}ms` }"
-          >{{ item.label }}</RouterLink>
+            >{{ item.label }}</RouterLink
+          >
         </li>
       </ul>
     </nav>
@@ -47,33 +50,36 @@
 </template>
 
 <script setup>
-import { ref, watch } from 'vue'
+import { ref, watch, onUnmounted } from "vue";
 
-const isOpen = ref(false)
+const isOpen = ref(false);
 
 const menuItems = [
-  { label: 'Blog', href: '/blog/' },
-  { label: 'Services', href: '/service/' },
-  { label: 'Projects', href: '/project/' },
-  { label: 'Team', href: '/team/' },
-  { label: 'Order Us', href: '/order/', dark: true },
-]
+  { label: "Blog", href: "/blog/" },
+  { label: "Services", href: "/service/" },
+  { label: "Projects", href: "/project/" },
+  { label: "Team", href: "/team/" },
+  { label: "Order Us", href: "/order/", dark: true },
+];
 
 function toggleMenu() {
-  isOpen.value = !isOpen.value
+  isOpen.value = !isOpen.value;
 }
 
 function closeMenu() {
-  isOpen.value = false
+  isOpen.value = false;
 }
 
 watch(isOpen, (val) => {
-  document.body.classList.toggle('overflow-hidden', val)
-})
+  document.body.classList.toggle("overflow-hidden", val);
+});
+
+onUnmounted(() => {
+  document.body.classList.remove("overflow-hidden");
+});
 </script>
 
 <style scoped>
-/* Staggered animation for menu items */
 @keyframes slideInItem {
   from {
     opacity: 0;
@@ -86,13 +92,23 @@ watch(isOpen, (val) => {
 }
 
 nav[role="menu"] li {
-  animation: slideInItem 0.3s ease-out forwards;
+  animation: slideInItem 1s ease-out forwards;
   opacity: 0;
 }
 
-nav[role="menu"] li:nth-child(1) { animation-delay: 0ms; }
-nav[role="menu"] li:nth-child(2) { animation-delay: 50ms; }
-nav[role="menu"] li:nth-child(3) { animation-delay: 100ms; }
-nav[role="menu"] li:nth-child(4) { animation-delay: 150ms; }
-nav[role="menu"] li:nth-child(5) { animation-delay: 200ms; }
+nav[role="menu"] li:nth-child(1) {
+  animation-delay: 0ms;
+}
+nav[role="menu"] li:nth-child(2) {
+  animation-delay: 50ms;
+}
+nav[role="menu"] li:nth-child(3) {
+  animation-delay: 100ms;
+}
+nav[role="menu"] li:nth-child(4) {
+  animation-delay: 150ms;
+}
+nav[role="menu"] li:nth-child(5) {
+  animation-delay: 200ms;
+}
 </style>
