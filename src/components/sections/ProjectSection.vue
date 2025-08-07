@@ -1,7 +1,14 @@
 <template>
-  <section id="project" class="bg-[#fffff0] text-[#1c1f29] px-5 md:px-10 xl:px-20 py-10">
-    <h1 class="text-4xl mb-12 text-center font-bold text-[#2f3a4b]">Recent Project</h1>
-    <div class="max-w-screen-lg mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+  <section
+    id="project"
+    class="bg-[#fffff0] text-[#1c1f29] px-5 md:px-10 xl:px-20 py-10"
+  >
+    <h1 class="text-4xl mb-12 text-center font-bold text-[#2f3a4b]">
+      Recent Project
+    </h1>
+    <div
+      class="max-w-screen-lg mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8"
+    >
       <RouterLink
         v-for="project in projects"
         :key="project.slug"
@@ -9,13 +16,18 @@
         class="rounded-2xl bg-white shadow-md hover:shadow-xl hover:scale-105 transition-transform duration-200 overflow-hidden border border-[#f3f3f7]"
         :title="project.title"
       >
-        <img :src="project.image" :alt="project.title" class="w-full aspect-video object-cover" />
+        <img
+          :src="project.image"
+          :alt="project.title"
+          class="w-full aspect-video object-cover"
+        />
         <div class="px-5 py-4 flex flex-col gap-2">
-          <span class="text-xs text-[#237c92] font-bold">{{ project.category }}</span>
+          <span class="text-xs text-[#237c92] font-bold">{{
+            project.category
+          }}</span>
           <h2 class="text-lg font-bold leading-snug">{{ project.title }}</h2>
           <p
-            class="mt-2 self-start text-blue-500 underline underline-offset-2 hover:text-[#13495A]
-                   focus:outline-none focus:ring-2 focus:ring-blue-300 font-semibold transition"
+            class="mt-2 self-start text-blue-500 underline underline-offset-2 hover:text-[#13495A] focus:outline-none focus:ring-2 focus:ring-blue-300 font-semibold transition"
           >
             Selengkapnya&hellip;
           </p>
@@ -26,12 +38,10 @@
 </template>
 
 <script setup>
-import { defineProps } from 'vue'
-
 const props = defineProps({
   projects: {
     type: Array,
-    required: true
-  }
-})
+    required: true,
+  },
+});
 </script>
