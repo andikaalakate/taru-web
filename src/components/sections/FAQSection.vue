@@ -13,7 +13,7 @@
         >
           <button
             @click="toggleFAQ(index)"
-            class="w-full px-6 py-5 text-left flex items-center justify-between hover:bg-gray-50 transition-colors focus:outline-none"
+            class="w-full px-6 py-5 text-left flex items-center justify-between hover:bg-gray-50 transition-colors focus:outline-none cursor-pointer "
             :aria-expanded="openIndex === index"
           >
             <h3 class="text-lg font-semibold text-[#2f3a4b] pr-4">
@@ -21,7 +21,7 @@
             </h3>
             <div class="flex-shrink-0">
               <svg
-                class="w-6 h-6 text-[#237c92] transform transition-transform duration-200"
+                class="w-6 h-6 text-[#237c92] transform transition-transform duration-300"
                 :class="{ 'rotate-180': openIndex === index }"
                 fill="none"
                 viewBox="0 0 24 24"

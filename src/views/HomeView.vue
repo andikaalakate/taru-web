@@ -3,6 +3,7 @@ import { ref, onMounted } from "vue";
 import Navbar from "@components/Navbar.vue";
 import ButtonNav from "@components/ButtonNav.vue";
 import HeroSection from "@components/sections/HeroSection.vue";
+import WhoUsSection from "@/components/sections/WhoUsSection.vue";
 import BlogSection from "@components/sections/BlogSection.vue";
 import ServiceSection from "@components/sections/ServiceSection.vue";
 import ProjectSection from "@components/sections/ProjectSection.vue";
@@ -30,10 +31,11 @@ onMounted(fetchPosts);
   <Navbar />
   <ButtonNav />
   <HeroSection />
-  <BlogSection :blogposts="blogposts.slice(0, 5)" layout="featured" />
+  <WhoUsSection />
   <ServiceSection :services="services.slice(0, 3)" />
   <ProjectSection :projects="projects.slice(0, 3)" />
   <OrderSection :limit="3" />
+  <BlogSection :blogposts="blogposts.slice(0, 5)" layout="featured" />
   <FAQSection />
   <Footer />
 </template>

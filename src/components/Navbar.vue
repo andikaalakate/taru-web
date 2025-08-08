@@ -19,7 +19,7 @@
         <li>
           <RouterLink
             to="/blog/"
-            class="px-3 py-2 rounded hover:text-[#2FB6CA] focus:outline-none transition-colors duration-200"
+            class="px-3 py-2 rounded focus:outline-none transition-colors duration-200 "
           >
             Blog
           </RouterLink>
@@ -27,7 +27,7 @@
         <li>
           <RouterLink
             to="/service/"
-            class="px-3 py-2 rounded hover:text-[#2FB6CA] focus:outline-none transition-colors duration-200"
+            class="px-3 py-2 rounded focus:outline-none transition-colors duration-200"
           >
             Services
           </RouterLink>
@@ -35,7 +35,7 @@
         <li>
           <RouterLink
             to="/project/"
-            class="px-3 py-2 rounded hover:text-[#2FB6CA] focus:outline-none transition-colors duration-200"
+            class="px-3 py-2 rounded focus:outline-none transition-colors duration-200"
           >
             Projects
           </RouterLink>
@@ -43,7 +43,7 @@
         <li>
           <RouterLink
             to="/team/"
-            class="px-3 py-2 rounded hover:text-[#2FB6CA] focus:outline-none transition-colors duration-200"
+            class="px-3 py-2 rounded focus:outline-none transition-colors duration-200"
           >
             Team
           </RouterLink>
